@@ -1,0 +1,2017 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- LINK -->
+    <link rel="stylesheet" href="../../style.css" />
+    <!-- Icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+ 
+  </head>
+  <body class="max-w-[100vw] h-[100vh] box-border font-Inter">
+
+    <!-- contribution bubble -->
+    <div
+      id="bubble"
+      class="bg-white h-[4vw] w-[4vw] fixed right-[4vw] bottom-[4vw] rounded-[2vw] z-10"
+    >
+      <div
+        class="bg-bubble bg-no-repeat bg-contain h-[4vw] w-[4vw] rounded-[2vw] border-[0.2vw] border-[#8a8a8a]"
+      >
+        <h3
+          class="text-[0.54vw] relative top-[2vw] left-[0.15vw] font-extrabold"
+        >
+          Contribution
+        </h3>
+      </div>
+    </div>
+    <!-- bubble information -->
+    <div
+      id="bubble-info"
+      class="w-[10vw] h-[25vw] fixed right-[-12vw] bottom-[10vw] z-0"
+    >
+      <div id="cards" class="flex flex-col items-center">
+        <div
+          class="w-[12vw] h-[8vw] bg-gray-100 rounded-[1vw] shadow-md mb-[1vw] p-[1vw]"
+        >
+          <h3 class="text-gray-800 text-[1vw] font-semibold mb-[1vw]">
+            Aditya : <span class="text-[0.8vw]">Contributions</span>
+          </h3>
+          <p class="text-[#227736] font-extrabold text-[0.8vw]">2 pages</p>
+        </div>
+
+        <div
+          class="w-[12vw] h-[8vw] bg-gray-100 rounded-[1vw] shadow-md mb-[1vw] p-[1vw]"
+        >
+          <h3 class="text-gray-800 text-[1vw] font-semibold mb-[1vw]">
+            Sachin : <span class="text-[0.8vw]">Contributions</span>
+          </h3>
+          <p class="text-[#227736] font-extrabold text-[0.8vw]">2 pages</p>
+        </div>
+
+        <div
+          class="w-[12vw] h-[8vw] bg-gray-100 rounded-[1vw] shadow-md mb-[1vw] p-[1vw]"
+        >
+          <h3 class="text-gray-800 text-[1vw] font-semibold mb-[1vw]">
+            Akash : <span class="text-[0.8vw]">Contributions</span>
+          </h3>
+          <p class="text-[#227736] font-extrabold text-[0.8vw]">2 pages</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header section  -->
+    <header class="max-w-[100vw] m-auto">
+      <div class="max-w-[100vw] m-auto h-[2vw] bg-[#634C9F] text-white">
+        <!-- 1st bar -->
+        <div
+          class="h-full px-[1vw] flex justify-between items-center max-w-[100vw] m-auto text-[0.7vw]"
+        >
+          <!-- left -->
+          <div class="">
+            <h4>
+              FREE delivery & 40% Discount for next 3 orders! Place your 1st
+              order in.
+            </h4>
+          </div>
+          <!-- right -->
+          <div class="text-[#ccc] relative right-[10vw]">
+            <h4 class="flex h-full items-center gap-[2vw]">
+              Until the end of the sale:
+              <span id="day" class="text-white text-[0.8vw] font-semibold"
+                >47</span
+              >days
+              <span id="hr" class="text-white text-[0.8vw] font-semibold"
+                >06</span
+              >hours
+              <span id="min" class="text-white text-[0.8vw] font-semibold"
+                >57</span
+              >minute
+              <span id="sec" class="text-white text-[0.8vw] font-semibold"
+                >08</span
+              >sec
+            </h4>
+          </div>
+        </div>
+      </div>
+      <hr class="border-[0.12vw]-[#f0f0f0] border-[0.12vw]-[0.011vw]" />
+      <!-- 2nd bar -->
+      <div
+        class="max-w-[100vw] px-[1vw] m-auto flex justify-between text-[0.7vw]"
+      >
+        <!-- left part -->
+        <div class="h-[2vw] flex items-center gap-[1.5vw]">
+          <div class=""><a href="">About Us</a></div>
+          <div class=""><a href="#">My account</a></div>
+          <div class=""><a href="#">Wishlist</a></div>
+          <div class="bg-[#ccc] h-[1vw] w-[0.011vw]"></div>
+          <div class="">
+            <p>
+              We deliver to you every day from:
+              <span class="text-[#EA580C] font-bold">7:00 to 23:00</span>
+            </p>
+          </div>
+        </div>
+        <!-- right part -->
+        <div class="h-[2vw] flex items-center gap-[1.5vw]">
+          <p>English <i class="ri-arrow-down-s-line"></i></p>
+          <p>USD <i class="ri-arrow-down-s-line"></i></p>
+          <p>Order Tracking</p>
+        </div>
+      </div>
+      <hr class="border-[0.12vw]-[#f0f0f0] border-[0.12vw]-[0.011vw]" />
+      <!-- 3rd main bar -->
+      <div
+        class="max-w-[100vw] px-[1vw] m-auto flex justify-between h-[3.5vw] items-center text-[0.7vw]"
+      >
+        <!-- logo -->
+        <div class="w-[6vw]">
+          <img class="w-[9vw]" src="../../assets/logo.png" alt="main-logo" />
+        </div>
+        <div
+          class="flex items-center justify-center gap-[1vw] bg-[#F0EEF6] w-[8vw] h-[2.4vw] rounded-xl font-bold"
+        >
+          <i class="ri-menu-line"></i>
+          <h3 class="text-[#634C9F] text-[0.8vw]">Categories</h3>
+        </div>
+        <div class="w-[60vw] flex relative">
+          <input
+            class="w-[60vw] border-[0.12vw] bg-[#F3F4F6] h-[2.4vw] text-[0.8vw] rounded-xl placeholder:pl-[1vw]"
+            type="text"
+            placeholder="Search for products, categories or brands..."
+          />
+          <button id="search">
+            <i
+              class="ri-search-line text-[1.5vw] absolute right-[0.6vw] top-[0.1vw]"
+            ></i>
+          </button>
+        </div>
+        <div class="flex gap-[2vw] items-center">
+          <h4 class=""><i class="text-[1vw] ri-user-3-line"></i> Account</h4>
+          <h4 class=""><i class="text-[1vw] ri-heart-3-line"></i> Wishlist</h4>
+          <h4 class="">
+            <i class="text-[1vw] ri-shopping-cart-2-line"></i> Your Cart
+          </h4>
+        </div>
+      </div>
+      <hr class="border-[0.12vw]-[#f0f0f0] border-[0.12vw]-[0.011vw]" />
+      <!-- 4th nav bar -->
+      <div
+        class="max-w-[100vw] h-[2.2vw] px-[1vw] m-auto flex justify-between items-center text-[0.8vw]"
+      >
+        <!-- left -->
+        <div class="">
+          <ul class="flex gap-[1.5vw] font-bold">
+            <li>
+              <a href="../../index.html">Home <i class="ri-arrow-down-s-line"></i></a>
+            </li>
+            <li>
+              <a href="#">Shop <i class="ri-arrow-down-s-line"></i></a>
+            </li>
+            <li>
+              <a href="../../src/Home 2 page/Home2.html">Fruits & Vegetables</a>
+            </li>
+            <li><a href="../../src/Home 3 page/Home3.html">Beverages</a></li>
+            <li><a href="../../src/Blog page/Home3.html">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- right -->
+        <div>
+          <ul class="flex gap-[1.5vw] font-bold">
+            <li>
+              <a href="#"
+                >Trending Products <i class="ri-arrow-down-s-line"></i
+              ></a>
+            </li>
+            <li class="text-[#DC2626]">
+              <a href="#"
+                >Almost Finished<span
+                  class="text-white text-[0.8vw] px-[0.6vw] py-[0.4vw] bg-[#DC2626] mx-[0.5vw] rounded-[1vw]"
+                  >SALE</span
+                >
+                <i class="ri-arrow-down-s-line"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+    </header>
+    <hr />
+
+    <!-- Main Section -->
+    <main
+      class="bg-hero-pattern bg-no-repeat bg-cover max-w-[100vw] h-[35vw] m-auto flex items-center text-[1vw]"
+    >
+      <div class="w-[90vw] m-auto">
+        <div class="mb-[1vw]">
+          <span
+            class="text-[#166534] font-semibold from-[#16a34a78] w-[5vw] py-[0.6vw] pl-[0.5vw] rounded-lg"
+            >Weekend
+          </span>
+          <span class="text-[#166534] font-semibold">Discount </span>
+        </div>
+        <h1
+          class="text-[#39245F] text-[3vw] font-bold leading-[3.5vw] mb-[1vw]"
+        >
+          Shopping with us for <br />
+          better quality and the <br />
+          best price
+        </h1>
+        <p class="text-[0.8vw] font-medium mb-[2vw]">
+          We have prepared special discounts for you on grocery products. <br />
+          Don't miss these opportunities...
+        </p>
+        <div class="flex gap-[1vw]">
+          <button
+            class="bg-[#634C9F] text-white px-[2vw] text-[0.8vw] font-bold rounded-[1vw]"
+          >
+            Shop Now
+          </button>
+          <div>
+            <h3 class="text-[#DC2626] text-[1.5vw] font-bold">
+              $21.67<span
+                class="text-black text-[1vw] font-semibold line-through"
+                >$26.67</span
+              >
+            </h3>
+            <p class="text-[0.8vw] text-[#7a7a7a]">
+              Don't miss this limited time offer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- info-section  -->
+    <div class="mt-[2vw] flex justify-around items-center w-[100vw] mb-[3vw]">
+      <div class="flex">
+        <img
+          class="flex w-[5vw] mt-[3vw] mr-[1vw]"
+          src="../../assets/SVG-1.png"
+          alt=""
+        />
+        <div class="w-[15vw] flex flex-col justify-center">
+          <h3 class="text-[1vw] font-bold">Payment only online</h3>
+          <p class="text-[0.9vw] mt-[0.5vw] text-[#6B7280]">
+            Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <img
+          class="flex w-[5vw] mt-[3vw] mr-[1vw]"
+          src="../../assets/SVG-2.png"
+          alt=""
+        />
+        <div class="w-[15vw] flex flex-col justify-center">
+          <h3 class="text-[1vw] font-bold">Payment only online</h3>
+          <p class="text-[0.9vw] mt-[0.5vw] text-[#6B7280]">
+            Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <img
+          class="flex w-[5vw] mt-[3vw] mr-[1vw]"
+          src="../../assets/SVG-3.png"
+          alt=""
+        />
+        <div class="w-[15vw] flex flex-col justify-center">
+          <h3 class="text-[1vw] font-bold">Payment only online</h3>
+          <p class="text-[0.9vw] mt-[0.5vw] text-[#6B7280]">
+            Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <img
+          class="flex w-[5vw] mt-[3vw] mr-[1vw]"
+          src="../../assets/SVG-4.png"
+          alt=""
+        />
+        <div class="w-[15vw] flex flex-col justify-center">
+          <h3 class="text-[1vw] font-bold">Payment only online</h3>
+          <p class="text-[0.9vw] mt-[0.5vw] text-[#6B7280]">
+            Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- horizontal line  -->
+    <div class="w-[100vw] flex justify-center">
+      <img class="h-[1vw]" src="../../assets/divider-separator.png" alt="" />
+    </div>
+
+    <!-- Banner-small-section  -->
+    <div class="banner-wrapper mt-[2vw] p-[1vw] mb-[2vw]">
+      <div class="flex gap-[1vw] max-w-[100vw] h-[15vw] justify-evenly">
+        <!-- card 1 -->
+        <div
+          class="bg-card-1 object-contain bg-cover w-[32vw] h-[15vw] pt-[1.5vw]"
+        >
+          <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[14vw]">
+            <div class="mb-[0.5vw]">
+              <p class="text-[#EA580C] text-[1.2vw] font-semibold">
+                <span>Only This Week</span>
+              </p>
+            </div>
+            <h1
+              class="text-[#111827] text-[1.5vw] font-extrabold leading-[2vw] mb-[0.5vw]"
+            >
+              Quality eggs at an <br />
+              affordable price
+            </h1>
+            <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280] f">
+              Eat one every day
+            </p>
+            <div class="flex gap-[1vw]">
+              <button
+                class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full"
+              >
+                Shop Now
+              </button>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div
+          class="bg-card-2 object-contain bg-cover w-[32vw] h-[15vw] pt-[1.5vw]"
+        >
+          <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[6vw]">
+            <div class="mb-[0.5vw]">
+              <p class="text-[#EA580C] text-[1.2vw] font-semibold">
+                <span>Only This Week</span>
+              </p>
+            </div>
+            <h1
+              class="text-[#111827] text-[1.5vw] font-extrabold leading-[2vw] mb-[0.5vw]"
+            >
+              Snacks nourishes <br />
+              our mind and body
+            </h1>
+            <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280]">
+              Shine the morning..
+            </p>
+            <div class="flex gap-[1vw]">
+              <button
+                class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full"
+              >
+                Shop Now
+              </button>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div
+          class="bg-card-3 object-contain bg-cover w-[32vw] h-[15vw] pt-[1.5vw]"
+        >
+          <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[ 6vw]">
+            <div class="mb-[0.5vw]">
+              <p class="text-[#EA580C] text-[1.2vw] font-semibold">
+                <span>Only This Week</span>
+              </p>
+            </div>
+            <h1
+              class="text-[#111827] text-[1.5vw] leading-[2vw] font-extrabold"
+            >
+              Unbeatable quality, <br />
+              unbeatable prices.
+            </h1>
+            <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280] f">
+              Only this week. Don’t miss...
+            </p>
+            <div class="flex gap-[1vw]">
+              <button
+                class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full"
+              >
+                Shop Now
+              </button>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--    New Arrivals section  -->
+    <div>
+      <div class="flex items-center max-w-[100vw] gap-[1vw]">
+        <h2 class="text-[#030712] text-[1.3vw] font-extrabold ml-[2vw]">
+          New Arrivals
+        </h2>
+        <p class="text-[0.9vw] leading-[15.73px] text-[#9CA3AF] items-center">
+          Dont miss this opportunity at a special discount just for this week.
+        </p>
+      </div>
+
+      <section class="products max-w-[100vw] m-auto">
+        <div
+          class="max-w-[100vw] box-border-[0.12vw] grid grid-cols-4 gap-[1vw] p-[1.5vw]"
+        >
+          <!-- Card 2 -->
+          <div
+            class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+          >
+            <div class="card flex">
+              <!-- left side -->
+              <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+                <img
+                  class="w-full"
+                  src="../../assets home3/products/Product-4.jpeg"
+                  alt="products"
+                />
+
+                <img
+                  class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                  src="../../assets home3/products/span.badge.png"
+                  alt="badge"
+                />
+                <div
+                  class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+                >
+                  <p class="text-[0.6vw] text-white"><span>75%</span></p>
+                </div>
+                <img
+                  class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                  src="../../assets home3/products/Link.png"
+                  alt="link"
+                />
+              </div>
+              <!-- right side -->
+              <div class="m-[1vw]">
+                <h3 class="text-[1vw] font-semibold">
+                  Great Value Rising Crust Frozen Pizza
+                </h3>
+                <div class="flex my-[0.2vw] items-center">
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector.png"
+                    alt=""
+                  />
+                  <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                </div>
+                <h4 class="text-red-500 text-[1vw] font-bold">
+                  $0.50
+                  <span class="text-black text-[0.6vw] line-through"
+                    >$1.99</span
+                  >
+                </h4>
+                <button
+                  class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+                >
+                  Add to Cart
+                  <img
+                    class="w-[1vw]"
+                    src="../../assets home3/products/Icon.png"
+                    alt="plus"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                85
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                06
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                57
+              </div>
+              <div class="h-[1.8vw] text-[1vw]">:</div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                08
+              </div>
+              <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+                >Remains until the end of the offer</span
+              >
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+          >
+            <div class="card flex">
+              <!-- left side -->
+              <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+                <img
+                  class="w-full"
+                  src="../../assets home3/products/Product-5.jpeg"
+                  alt="products"
+                />
+                <img
+                  class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                  src="../../assets home3/products/span.badge.png"
+                  alt="badge"
+                />
+                <div
+                  class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+                >
+                  <p class="text-[0.6vw] text-white"><span>75%</span></p>
+                </div>
+                <img
+                  class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                  src="../../assets home3/products/Link.png"
+                  alt="link"
+                />
+              </div>
+              <!-- right side -->
+              <div class="m-[1vw]">
+                <h3 class="text-[1vw] font-semibold">
+                  100 Percent Apple Juice – 64 fl oz Bottle
+                </h3>
+                <div class="flex my-[0.2vw] items-center">
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector.png"
+                    alt=""
+                  />
+                  <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                </div>
+                <h4 class="text-red-500 text-[1vw] font-bold">
+                  $0.50
+                  <span class="text-black text-[0.6vw] line-through"
+                    >$1.99</span
+                  >
+                </h4>
+                <button
+                  class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+                >
+                  Add to Cart
+                  <img
+                    class="w-[1vw]"
+                    src="../../assets home3/products/Icon.png"
+                    alt="plus"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                85
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                06
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                57
+              </div>
+              <div class="h-[1.8vw] text-[1vw]">:</div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                08
+              </div>
+              <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+                >Remains until the end of the offer</span
+              >
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+          >
+            <div class="card flex">
+              <!-- left side -->
+              <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+                <img
+                  class="w-full"
+                  src="../../assets home3/products/Product-6.jpeg"
+                  alt="products"
+                />
+                <img
+                  class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                  src="../../assets home3/products/span.badge.png"
+                  alt="badge"
+                />
+                <div
+                  class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+                >
+                  <p class="text-[0.6vw] text-white"><span>75%</span></p>
+                </div>
+                <img
+                  class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                  src="../../assets home3/products/Link.png"
+                  alt="link"
+                />
+              </div>
+              <!-- right side -->
+              <div class="m-[1vw]">
+                <h3 class="text-[1vw] font-semibold">
+                  100 Percent Apple Juice – 64 fl oz Bottle
+                </h3>
+                <div class="flex my-[0.2vw] items-center">
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector.png"
+                    alt=""
+                  />
+                  <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                </div>
+                <h4 class="text-red-500 text-[1vw] font-bold">
+                  $0.50
+                  <span class="text-black text-[0.6vw] line-through"
+                    >$1.99</span
+                  >
+                </h4>
+                <button
+                  class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+                >
+                  Add to Cart
+                  <img
+                    class="w-[1vw]"
+                    src="../../assets home3/products/Icon.png"
+                    alt="plus"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                85
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                06
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                57
+              </div>
+              <div class="h-[1.8vw] text-[1vw]">:</div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                08
+              </div>
+              <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+                >Remains until the end of the offer</span
+              >
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div
+            class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+          >
+            <div class="card flex">
+              <!-- left side -->
+              <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+                <img
+                  class="w-full"
+                  src="../../assets home3/products/Product-8.jpeg"
+                  alt="products"
+                />
+                <img
+                  class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                  src="../../assets home3/products/span.badge.png"
+                  alt="badge"
+                />
+                <div
+                  class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+                >
+                  <p class="text-[0.6vw] text-white"><span>75%</span></p>
+                </div>
+                <img
+                  class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                  src="../../assets home3/products/Link.png"
+                  alt="link"
+                />
+              </div>
+              <!-- right side -->
+              <div class="m-[1vw]">
+                <h3 class="text-[1vw] font-semibold">
+                  100 Percent Apple Juice – 64 fl oz Bottle
+                </h3>
+                <div class="flex my-[0.2vw] items-center">
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector (1).png"
+                    alt=""
+                  />
+                  <img
+                    class="w-[0.8vw]"
+                    src="../../assets home3/products/Vector.png"
+                    alt=""
+                  />
+                  <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                </div>
+                <h4 class="text-red-500 text-[1vw] font-bold">
+                  $0.50
+                  <span class="text-black text-[0.6vw] line-through"
+                    >$1.99</span
+                  >
+                </h4>
+                <button
+                  class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+                >
+                  Add to Cart
+                  <img
+                    class="w-[1vw]"
+                    src="../../assets home3/products/Icon.png"
+                    alt="plus"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                85
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                06
+              </div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                57
+              </div>
+              <div class="h-[1.8vw] text-[1vw]">:</div>
+              <div
+                class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+              >
+                08
+              </div>
+              <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+                >Remains until the end of the offer</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Banner-small-section  -->
+    <div class="banner-wrapper mt-[2vw] p-[1vw] mb-[5vw]">
+      <div class="flex gap-[1vw] max-w-[100vw] h-[15vw] justify-evenly">
+        <!-- card 1 -->
+        <div
+          class="bg-card-8 object-contain bg-cover w-[52vw] h-[18vw] pt-[1.5vw]"
+        >
+          <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[14vw]">
+            <div class="mb-[0.5vw]">
+              <p class="text-[#EA580C] text-[1.2vw] font-semibold">
+                <span>Only This Week</span>
+              </p>
+            </div>
+            <h1
+              class="text-[#111827] text-[1.5vw] font-extrabold leading-[2vw] mb-[0.5vw]"
+            >
+              Quality eggs at an <br />
+              affordable price
+            </h1>
+            <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280] f">
+              Eat one every day
+            </p>
+            <div class="flex gap-[1vw]">
+              <button
+                class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full"
+              >
+                Shop Now
+              </button>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div
+          class="bg-card-9 object-contain bg-cover w-[52vw] h-[18vw] pt-[1.5vw]"
+        >
+          <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[6vw]">
+            <div class="mb-[0.5vw]">
+              <p class="text-[#EA580C] text-[1.2vw] font-semibold">
+                <span>Only This Week</span>
+              </p>
+            </div>
+            <h1
+              class="text-[#111827] text-[1.5vw] font-extrabold leading-[2vw] mb-[0.5vw]"
+            >
+              Snacks nourishes <br />
+              our mind and body
+            </h1>
+            <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280]">
+              Shine the morning..
+            </p>
+            <div class="flex gap-[1vw]">
+              <button
+                class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full"
+              >
+                Shop Now
+              </button>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--  Featured Products section -->
+    <div class="flex items-center max-w-[100vw] gap-[1vw]">
+      <h2 class="text-[#030712] text-[1.3vw] font-extrabold ml-[2vw]">
+        Featured Products
+      </h2>
+      <p class="text-[0.9vw] leading-[15.73px] text-[#9CA3AF] items-center">
+        Do not miss the current offers until the end of March.
+      </p>
+    </div>
+
+    <section class="products max-w-[100vw] m-auto">
+      <div
+        class="max-w-[100vw] box-border-[0.12vw] grid grid-cols-4 gap-[1vw] p-[1.5vw]"
+      >
+        <!-- Card 1 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-2.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-4.jpeg"
+                alt="products"
+              />
+
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                Great Value Rising Crust Frozen Pizza
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-3.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-5.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-5.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-6.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 7 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-9.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div
+          class="w-[23vw] h-[15vw] border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]"
+        >
+          <div class="card flex">
+            <!-- left side -->
+            <div class="relative h-[7.5vw] w-[12vw] m-[1vw]">
+              <img
+                class="w-full"
+                src="../../assets home3/products/Product-8.jpeg"
+                alt="products"
+              />
+              <img
+                class="w-[4vw] absolute bottom-[0vw] -left-[1vw]"
+                src="../../assets home3/products/span.badge.png"
+                alt="badge"
+              />
+              <div
+                class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center"
+              >
+                <p class="text-[0.6vw] text-white"><span>75%</span></p>
+              </div>
+              <img
+                class="absolute bottom-[0vw] right-[0vw] w-[1vw]"
+                src="../../assets home3/products/Link.png"
+                alt="link"
+              />
+            </div>
+            <!-- right side -->
+            <div class="m-[1vw]">
+              <h3 class="text-[1vw] font-semibold">
+                100 Percent Apple Juice – 64 fl oz Bottle
+              </h3>
+              <div class="flex my-[0.2vw] items-center">
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector (1).png"
+                  alt=""
+                />
+                <img
+                  class="w-[0.8vw]"
+                  src="../../assets home3/products/Vector.png"
+                  alt=""
+                />
+                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+              </div>
+              <h4 class="text-red-500 text-[1vw] font-bold">
+                $0.50
+                <span class="text-black text-[0.6vw] line-through">$1.99</span>
+              </h4>
+              <button
+                class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]"
+              >
+                Add to Cart
+                <img
+                  class="w-[1vw]"
+                  src="../../assets home3/products/Icon.png"
+                  alt="plus"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="flex items-start gap-[0.5vw] p-[0.5vw]">
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              85
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              06
+            </div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              57
+            </div>
+            <div class="h-[1.8vw] text-[1vw]">:</div>
+            <div
+              class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]"
+            >
+              08
+            </div>
+            <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]"
+              >Remains until the end of the offer</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- discount banner -->
+ <section>
+  <img class="w-[100vw] mb-[5vw]" src="../../assets/discount-banner.png" alt="discounts">
+</section>
+
+    <footer class="max-w-[100vw] m-auto mt-[2vw]">
+
+      <!-- upper-section  -->
+      <div class="max-w-[100vw] flex justify-between mr-[10vw] mb-[5vw]">
+        <!-- join our newsLetter  -->
+
+        <div class="max-w-[50vw] items-center mx-auto">
+          <h1 class="text-[1.4vw] font-bold text-[#111827]">
+            Join our newsletter for £10 offs
+          </h1>
+          <p class="text-gray-700 text-[0.7vw] mt-[0.5vw]">
+            Register now to get latest updates on promotions &amp; coupons.Don’t
+            <br />worry, we not spam!
+          </p>
+        </div>
+
+        <!--email input box  -->
+        <div>
+          <div class="w-[50vw] flex justify-center align-centre">
+            <div class="">
+              <input
+                class="w-[25vw] h-[3vw] text-[1vw]  px-[1vw]  border-[#D1D5DB] rounded-sm color-[#FFFFFF]"
+                type="text"
+                placeholder="Enter your email address"
+              />
+              <span
+                class="bg-[#634C9F]  py-[0.8vw] text-white w-[25vw] h-[3vw] px-[1vw]  text-[0.9vw]"
+                >SEND</span
+              >
+              <div class="flex">
+                <p class="text-centre mt-[0.3vw] ml-[0.9vw] text-[0.7vw]">
+                  By subscribing you agree to our
+                  <a class="text-[#634C9F] font-bold" href=""
+                    >Terms &amp; Conditions and Privacy &amp; Cookies Policy.</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- mid-section  -->
+      <div
+        class="flex justify-between items-center w-[100vw]  mt-[1vw] mb-[4vw] "
+      >
+        <div class=" mx-auto w-[20vw] h-[18vw]">
+          <div class="flex flex-col">
+            <h2 class="text-[1.2vw] font-bold ">Do You Need Help ?</h2>
+            <p class="text-[0.7vw] mt-5 color-[#6B7280] opacity-[75%] mb-[1vw]">
+              Autoseligen syr. Nek diarask fröbomba. Nör <br />
+              antipol kynoda nynat. Pressa fåmoska.
+            </p>
+
+            <div class="flex justify-center mb-[0.8vw]">
+              <i class="ri-phone-line text-[2vw] "></i>
+              <div class="w-[20vw] ml-[0.9vw] flex flex-col justify-center mx-auto">
+                <h3 class="text-[0.9vw] opacity-[60%]">Monday-Friday:08am-9pm</h3>
+                <h2 class="text-[0.9vw] font-bold">0 <span>800</span> 300-353</h2>
+              </div>
+            </div>
+
+            <div class="flex justify-center">
+              <i class="ri-mail-line text-[2vw] "></i>
+              <div
+                class="w-[20vw] ml-[0.9vw] flex flex-col justify-center mx-auto left-[2rem]"
+              >
+                <h3 class="text-[0.9vw] opacity-[60%]">Need help with your order?</h3>
+                <h2 class="text-[0.9vw] font-semibold">info@example.com</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[60vw] py-[5vw] grid grid-col-4 grid-flow-col">
+          <!-- grid-1 -->
+          <div class="w-[15vw] ">
+            <h1 class="text-[1vw] font-semibold ">
+              Make Money with Us
+            </h1>
+            <div class="text-[0.9vw] mt-[1vw] text-[#4B5563]">
+              <p>Sell on Grogin</p>
+              <p>Sell Your Services on Grogin</p>
+              <p>Sell on Grogin Business</p>
+              <p>Sell Your Apps on Grogin</p>
+              <p>Become an Affilate</p>
+              <p>Advertise Your Products</p>
+              <p>Sell-Publish with Us</p>
+              <p>Become an Blowwe Vendor</p>
+            </div>
+          </div>
+
+          <!-- grid-2  -->
+          <div class="w-[15vw] ">
+            <h1 class="text-[1vw] font-semibold ">
+              Make Money with Us
+            </h1>
+            <div class="text-[0.9vw] mt-[1vw] text-[#4B5563]">
+              <p>Sell on Grogin</p>
+              <p>Sell Your Services on Grogin</p>
+              <p>Sell on Grogin Business</p>
+              <p>Sell Your Apps on Grogin</p>
+              <p>Become an Affilate</p>
+              <p>Advertise Products</p>
+              <p>Publish with Us</p>
+              <p>Become an Blowwe Vendor</p>
+              <p>Sell-Publish with Us</p>
+            </div>
+          </div>
+
+        <!-- grid-3  -->
+        <div class="w-[15vw] ">
+          <h1 class="text-[1vw] font-semibold ">
+            Make Money with Us
+          </h1>
+          <div class="text-[0.9vw] mt-[1vw] text-[#4B5563]">
+            <p>Sell on Grogin</p>
+            <p>Sell Your Services on Grogin</p>
+            <p>Sell on Grogin Business</p>
+            <p>Sell Your Apps on Grogin</p>
+            <p>Become an Affilate</p>
+            <p>Advertise Products</p>
+            <p>Publish with Us</p>
+            <p>Become an Blowwe Vendor</p>
+            <p>Sell-Publish with Us</p>
+          </div>
+        </div>
+          <!-- grid-4  -->
+          <div class="w-[15vw]">
+            <h1 class="text-[1.2vw] font-semibold">Get to Know Us</h1>
+
+            <div class="mt-[0.5vw] py-[1vw] px-[1vw] text-[#4B5563]">
+              <div class="flex">
+                <img
+                  class="w-[8vw] h-[3vw] mb-[1vw]"
+                  src="../../assets/google-pay-logo.png"
+                  alt=""
+                />
+                <!-- <div class="text-[0.5vw] text-center items-center  my-[0.5vw] ml-[0.2vw] mb-[1vw]">
+                  Download App -10% Discount
+                </div> -->
+              </div>
+
+              <div class="flex mb-10">
+                <img
+                  class="w-[8vw] h-[3vw]"
+                  src="../../assets/apple app store-logo.png"
+                  alt=""
+                />
+                <!-- <div class="flex text-xs justify-center items-center ml-2">
+                  Download App -10% Discount
+                </div> -->
+              </div>
+
+              <div>
+                <p class="text-[0.8vw] mb-[1vw]">Follow us on social media:</p>
+                <div class="flex gap-[0.7vw] ">
+                  <span class="[&>svg]:h-[2vw] [&>svg]:w-[2vw] [&>svg]:fill-[#1877f2]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <path
+                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+                      />
+                    </svg>
+                  </span>
+
+                  <!-- Instagram -->
+                  <span class="[&>svg]:h-[2vw] [&>svg]:w-[2vw] [&>svg]:fill-[#c13584]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      />
+                    </svg>
+                  </span>
+
+                  <!-- Google -->
+                  <span class="[&>svg]:h-[2vw] [&>svg]:w-[2vw] [&>svg]:fill-[#ea4335]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 488 512"
+                    >
+                      <path
+                        d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+                      />
+                    </svg>
+                  </span>
+
+                  <!-- Linkedin -->
+                  <span class="[&>svg]:h-[2vw] [&>svg]:w-[2vw] [&>svg]:fill-[#0077b5]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                      />
+                    </svg>
+                  </span>
+
+                  <!-- Pinterest -->
+                  <span class="[&>svg]:h-[2vw] [&>svg]:w-[2vw] [&>svg]:fill-[#e60023]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3 .8-3.4 5-20.3 6.9-28.1 .6-2.5 .3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+     
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+    <script src="./main.js" ></script>
+  </body>
+</html>
