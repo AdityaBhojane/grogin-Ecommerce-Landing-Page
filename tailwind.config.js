@@ -28,6 +28,10 @@ module.exports = {
         'card-5': "url('./assets/Banner-lg-2.jpeg')",
         'card-6': "url('./assets/Banner-lg-3.jpeg')",
         'card-7': "url('./assets/Banner-lg-4.jpeg')",
+
+        'card-8': "url('./assets/card-8.jpeg')",
+        'card-9': "url('./assets/card-9.jpeg')",
+
        
         
 
